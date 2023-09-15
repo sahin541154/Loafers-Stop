@@ -1,0 +1,36 @@
+.main {
+    max-width: 100%;
+    height: 53px;
+    padding-top: 20px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid gray;
+  }
+  .main .sub-main {
+    display: inline-flex;
+    width: 70%;
+    background-color: blanchedalmond;
+    height: 53px;
+  }
+  .main .sub-main .menu-dt {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    text-decoration: none;
+  }
+  .main .sub-main .menu-dt .logo {
+    font-size: 12px;
+  }
+  .main .sub-main .menu-dt .menus {
+    list-style: none;
+    display: inline-flex;
+    font-family: monospace;
+    gap: 20px;
+  }
+
+
+
+  

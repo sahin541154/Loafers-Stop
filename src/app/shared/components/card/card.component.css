@@ -1,0 +1,347 @@
+.px-2 {
+    padding-right: 0.5rem!important;
+}
+
+.pl-2, .px-2 {
+    padding-left: 0.5rem!important;
+}
+@media (min-width: 769px){
+.col-sm-4 {
+    width: 10%;
+}}
+@media (min-width: 769px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}}
+.col-xs-6 {
+    border: 1px solid gray;
+    width: 10%;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a, a:focus, a:hover {
+    color: rgba(0,0,0,.9);
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    outline: none;
+}
+.productCardBox {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.productCardBox .productCardImg {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.productImg {
+    transition: all .2s ease-in-out 0s;
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.productCardBox .productCardImg .productImgTag:last-child {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.productCardBox .productCardImg .productImgTag:first-child {
+    display: block;
+}
+.productCardBox .productCardImg .productImgTag {
+    object-fit: cover;
+}
+.productCardBox .productCardImg .productStatusBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.productCardBox .productCardImg .bottomTag {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.tag-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+@media screen and (min-width: 769px){
+.pdt-r-wrap {
+    gap: 5px;
+    bottom: 20px;
+}}
+.pdt-r-wrap {
+    padding: 1px 4px 1px 8px;
+    position: absolute;
+    bottom: 12px;
+    gap: 3px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.bgclr-shade8 {
+    background-color: #f7f7f7!important;
+}
+@media screen and (min-width: 769px){
+.pdt-r-wrap i {
+    font-size: 9px;
+}}
+.pdt-r-wrap i {
+    font-size: 7px;
+}
+[class*=" icon_"], [class*=icon_] {
+    font-family: icomoon!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.clr-p-yellow {
+    color: #ffc700!important;
+}
+.icon_star_filled:before {
+    content: "\E909";
+}
+@media screen and (min-width: 769px){
+.pdt-r-wrap span {
+    font-family: montserrat-semibold,sans-serif!important;
+    font-size: 10px!important;
+    line-height: 12px!important;
+}}
+.pdt-r-wrap span {
+    font-family: montserrat-semibold,sans-serif!important;
+    font-size: 8px!important;
+    line-height: 10px!important;
+}
+.productCardBox .pdt-card-h {
+    min-height: 114px;
+}
+.productCardBox .productCardDetail {
+    width: 100%;
+    padding: 8px 0 0;
+    max-height: 100px;
+    min-height: 82px;
+    overflow: hidden;
+    position: relative;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.productCardBox .productCardDetail .productNaming {
+    -ms-flex: 1;
+    flex: 1;
+}
+.bkf-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.productCardBox .productCardDetail .productNaming .brand-name {
+    color: #4f5362;
+    text-transform: capitalize;
+    font-family: montserrat-semibold,sans-serif!important;
+    font-size: 12px!important;
+    line-height: 15px!important;
+}
+.productCardBox .productCardDetail h3 {
+    font-size: 12px;
+    font-family: montserrat,sans-serif;
+    color: #2d2d2d;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: normal;
+}
+.productCardBox .productCardDetail .productNaming .h3-p-name {
+    margin-top: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 10px!important;
+    line-height: 12px!important;
+}
+.productCardBox .productCardDetail .productNaming h2 {
+    color: #2d2d2d;
+}
+.clr-shade4 {
+    color: #737373!important;
+}
+.productCardBox .productCardDetail .wishListProduct-v2 {
+    cursor: pointer;
+    margin-right: 4px;
+}
+.productCardBox .productCardDetail .productPriceBox {
+    margin-top: 6px;
+}
+
+.align-items-end {
+    -ms-flex-align: end!important;
+    align-items: flex-end!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.productCardBox .productCardDetail .productPriceBox .discountedPriceText {
+    font-family: montserrat-semibold,sans-serif!important;
+    font-size: 16px!important;
+    line-height: 14px!important;
+}
+.clr-p-black {
+    color: #000!important;
+}
+.productCardBox .productCardDetail .productPriceBox .discountedPriceText span {
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 12px!important;
+    line-height: 8px!important;
+}
+@media (min-width: 769px){
+.productCardBox .productCardDetail .productPriceBox .actualPriceText {
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 12px!important;
+    line-height: 12px!important;
+}}
+.productCardBox .productCardDetail .productPriceBox .actualPriceText {
+    padding-left: 5px;
+    text-decoration: line-through;
+    font-family: montserrat-regular,sans-serif!important;
+    font-size: 9px!important;
+    line-height: 15px!important;
+}
+.clr-shade5 {
+    color: #949494!important;
+}
+.sellingFastBox {
+    float: left;
+}
+@media (min-width: 769px){
+.productCardBox .productCardDetail .loyalty-stock-wrap {
+    margin-top: 8px;
+}}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.productCardBox .productCardDetail .loyalty-stock-wrap .loyaltyPriceBox {
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #525252;
+    padding: 2px 8px;
+    font-size: 10px;
+}
+
+.loyaltyPriceBox {
+    width: 100%;
+    height: auto;
+    background-color: hsla(0,0%,92.9%,.6);
+    border-radius: 2px;
+    padding: 5px 2px 5px 0;
+    float: left;
+    position: relative;
+    margin-top: 4px;
+}
+.productCardBox .productCardDetail .loyalty-stock-wrap .loyaltyPriceBox h5, .productCardBox .productCardDetail .loyalty-stock-wrap .loyaltyPriceBox h6 {
+    color: rgba(0,0,0,.81);
+}
+@media (min-width: 769px){
+.loyaltyPriceBox h6 {
+    font-size: 11px;
+    line-height: 11px;
+}}
+
+.loyaltyPriceBox h6 {
+    font-size: 9px;
+    line-height: 10px;
+}
+.loyaltyPriceBox h5, .loyaltyPriceBox h6 {
+    font-family: montserrat,sans-serif;
+    color: rgba(0,0,0,.81);
+    float: left;
+    margin-left: 2px;
+}
+.loyaltyPriceBox h6 b {
+    padding-right: 3px;
+}
+.loyaltyPriceBox h5 b, .loyaltyPriceBox h6 b {
+    font-family: montserrat-bold,sans-serif;
+}
+.px-2 {
+    padding-right: 0.5rem!important;
+}
+.pl-2, .px-2 {
+    padding-left: 0.5rem!important;
+}
+.py-1 {
+    padding-top: 0.25rem!important;
+    padding-bottom: 0.25rem!important;
+}
+
+@media (min-width: 769px){
+.fabric_tag_container {
+    margin: 12px 0;
+}}
+.fabric_tag_container {
+    margin: 8px 0;
+    width: -webkit-fit-content;
+    width: fit-content;
+}
+@media (min-width: 769px){
+.fabric_tag_container .tag_label_plp {
+    font-family: montserrat-semibold,sans-serif!important;
+    font-size: 10px!important;
+    line-height: 10px!important;
+}}
+.fabric_tag_container .tag_label_plp {
+    font-family: montserrat-semibold,sans-serif!important;
+    font-size: 7px!important;
+    line-height: 10px!important;
+    text-transform: uppercase;
+}
